@@ -1,0 +1,46 @@
+.Card{
+    background-image:url('/src/images/img2.jpg');
+    background-size:contain;
+    justify-content:space-between;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 4px 4px 10px 6px #ffffffd1;
+    border-radius:20px;
+    font-family: sans-serif;
+    width:200px;
+    height:300px;
+    
+    
+}
+.Card img{
+    border: 2px solid rgb(0, 0, 0);
+    font-family: sans-serif;
+    width:115px;
+    height:120px;
+    border-radius:20px;
+}
+
+.Card h2{
+   color: aqua;
+   -webkit-text-stroke: 0.7px black;
+   color: rgb(255, 255, 255); 
+   font-size: 18px; 
+   font-family: 'Itim', cursive;
+
+
+}
+.Card button{
+    padding-top: 30px;
+    padding: 8px 16px;
+    background-color: #ba1f14;
+    color: #fff;
+    border: none;
+    border-radius: 14px;
+    font-size: 16px;
+    cursor: pointer;
+    width:80px;
+    height:30px;
+    
+}
+.Card button:hover {
+    background-color: #d4ff00;
+}

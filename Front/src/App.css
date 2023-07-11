@@ -1,0 +1,18 @@
+.App {
+   text-align: center;
+
+}
+.App div{
+   align-items: center;
+
+}
+.Container{
+   align-items: center;
+   padding-left: 33%;
+   padding-right: 33%;
+  
+}
+
+.centered {
+   line-height: normal;
+ }

@@ -1,0 +1,8 @@
+.Cardss{
+    display: grid;
+    grid-template-rows: repeat(5, 1fr); /* Crea 5 filas de igual tamaño */
+    grid-template-columns: repeat(5, 1fr); /* Crea 5 columnas de igual tamaño */
+    grid-gap: 5px;
+    justify-content:space-around;
+    padding-top: 30px;
+}

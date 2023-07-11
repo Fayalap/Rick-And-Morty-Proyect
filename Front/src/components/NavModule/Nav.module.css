@@ -1,0 +1,33 @@
+.Nav button{
+
+    padding-top: 30px;
+    padding: 8px 16px;
+    background-color: #ba1f14;
+    color: #fff;
+    border: none;
+    border-radius: 14px;
+    font-size: 16px;
+    cursor: pointer;
+    width:90px;
+    height:35px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 4px 4px 10px 6px #ffffffd1;
+    border-radius:20px;
+
+}
+.Nav div{
+    padding-left:70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content:space-around;
+    
+}
+.Nav a{
+    padding-left: 0%;
+    
+    
+}
+.Nav button:hover {
+    background-color: #d4ff00;
+}

@@ -1,0 +1,27 @@
+@keyframes pulsate {
+    0% {
+      font-size: 3.2em;
+    }
+    50% {
+      font-size: 3.5em;
+    }
+    100% {
+      font-size: 3.2em;
+    }
+  }
+.Title {
+    text-align: center;
+
+}
+
+.Title h1{
+    text-align: center;
+    color: #000000;
+    font-size: 70px; 
+    font-family: 'Itim', cursive;
+    -webkit-text-stroke: 1.6px rgb(255, 255, 255);
+    animation: pulsate 5s infinite;
+
+}
+
+

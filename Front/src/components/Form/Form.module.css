@@ -1,0 +1,68 @@
+
+.Form{
+    background-image:url('/src/images/dad.jpg');
+    background-size:cover;
+  justify-content: center;
+  align-items: top;
+  width: 450px;
+  height: 420px;
+  border: 5px solid rgb(255, 255, 255);
+  box-shadow: 4px 4px 10px 6px #ffffffd1;
+  border-radius:20px;
+
+}
+.Form div{
+    align-items: center;
+
+}  
+  .warning {
+    border: solid red 1px;
+    border-radius: 0.2em;
+  }
+  
+  .danger {
+    font-size: 10px;
+    color: red;
+    margin-left: 10em;
+  }
+ 
+
+
+.Form label{
+    color: aqua;
+   -webkit-text-stroke: 0.7px black;
+   color: rgb(255, 255, 255); 
+   font-size: 24px; 
+   font-family: 'Itim', cursive;
+
+
+}
+
+.Form p{
+    color: rgb(255, 0, 0);
+   -webkit-text-stroke: 0.7px black;
+   color: rgb(255, 0, 0); 
+   font-size: 22px; 
+   font-family: 'Itim', cursive;
+
+
+}
+
+.Form button {
+    padding: 7px 14px;
+    background-color: #4c9baf;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Form button:hover {
+    background-color: #00a7c4;
+  }
+  
+  .Form button:active {
+    background-color: #008397;
+  }
